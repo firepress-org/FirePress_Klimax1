@@ -13,6 +13,9 @@ FirePress Casper is fork of the Ghost Theme 'Casper'. It’s open sourced here: 
 #### Screenshots
 ![](https://raw.githubusercontent.com/firepress-org/theme-assets/master/common-tools/screenshots/table-grid.png)
 
+![](https://raw.githubusercontent.com/firepress-org/theme-assets/master/common-tools/screenshots/buttons.png)
+
+![](https://raw.githubusercontent.com/firepress-org/theme-assets/master/common-tools/screenshots/highlight-syntax.png)
 ## Copyright & License
 
 Copyright (c) 2013-2017 Ghost Foundation - Released under the [MIT license](LICENSE).
