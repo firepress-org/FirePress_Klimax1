@@ -1,5 +1,5 @@
 {
-    "name": "FirePress Casper",
+    "name": "FirePress_Casper",
     "description": "FirePress Casper an enhanced version of the original Casper theme made by the Ghost foundation.",
     "demo": "https://demo.ghost.io",
     "version": "1.3.6",
@@ -12,15 +12,14 @@
         "mobile": "assets/screenshot-mobile.jpg"
     },
     "author": {
-        "name": "Ghost Foundation",
-        "email": "hello@ghost.org",
-        "url": "https://ghost.org"
+        "name": "Pascal Andy",
+        "url": "https://blog.pascalandy.com"
     },
     "gpm": {
         "type": "theme",
         "categories": [
             "Minimal",
-            "Personal Blogs"
+            "Business website and blog"
         ]
     },
     "keywords": [
@@ -29,8 +28,8 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/TryGhost/Casper.git"
+        "url": "https://github.com/firepress-org/FirePress_Casper.git"
     },
-    "bugs": "https://github.com/TryGhost/Casper/issues",
-    "contributors": "https://github.com/TryGhost/Casper/graphs/contributors"
+    "bugs": "https://github.com/firepress-org/FirePress_Casper/issues",
+    "contributors": "https://github.com/firepress-org/FirePress_Casper/graphs/contributors"
 }
