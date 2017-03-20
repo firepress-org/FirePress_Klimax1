@@ -1018,6 +1018,9 @@ body.nav-opened .nav {
     background: #FFF;
     border-radius: 100%;
     box-shadow: #FFF 0 0 0 5px;
+	
+	/* Kill that stylish little circle that was on the border, too */
+    display: none;
 }
 
 body:not(.post-template) .post-title {
@@ -1340,6 +1343,9 @@ body.page-template .post-title {
     background: #FFF;
     border-radius: 100%;
     box-shadow: #FFF 0 0 0 5px;
+	
+	/* Kill that stylish little circle that was on the border, too */
+    display: none;
 }
 
 .author-image {
