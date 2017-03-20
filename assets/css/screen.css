@@ -731,7 +731,7 @@ body.nav-opened .nav {
     line-height: 1.4;
     font-size: 1.4rem;
     display: block;
-    padding: 1.25rem 4%;
+    padding: 0.9rem 4%;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
