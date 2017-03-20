@@ -582,7 +582,7 @@ body.nav-opened .site-wrapper {
     position: relative;
     display: table;
     width: 100%;
-    height: 100vh;
+    height: 38.1966vh;
     margin-bottom: 5rem;
     text-align: center;
     background: #222 no-repeat center center;
@@ -655,9 +655,10 @@ body.nav-opened .nav {
     top: 45px;
     left: 30px;
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 400;
     text-transform: uppercase;
     color: #fff;
+    font-family: "Open Sans", sans-serif;
 }
 
 .nav-close {
@@ -730,7 +731,7 @@ body.nav-opened .nav {
     line-height: 1.4;
     font-size: 1.4rem;
     display: block;
-    padding: 0.6rem 4%;
+    padding: 1.25rem 4%;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -1173,7 +1174,7 @@ body.page-template .post-title {
    text column to break out. */
 .post-content img {
     display: block;
-    max-width: 126%;
+    max-width: 100%;
     height: auto;
     padding: 0.6em 0;
     /* Centers an image by (1) pushing its left edge to the
@@ -1932,10 +1933,12 @@ body.page-template .post-title {
 
     .blog-logo {
         padding: 5px;
+        padding-top: 3px;
+        padding-left: 7px;
     }
 
     .blog-logo img {
-        height: 30px;
+        height: 40px;
     }
 
     .menu-button {
@@ -1945,6 +1948,17 @@ body.page-template .post-title {
         color: #2e2e2e;
         background: transparent;
     }
+
+    .menu-button .word {
+        display: none;
+    }
+
+    .menu-button:before {
+        font-size: 22px;
+        top: 6px;
+        right: -7px;
+    }
+
     .menu-button:hover {
         color: #2e2e2e;
         border-color: transparent;
