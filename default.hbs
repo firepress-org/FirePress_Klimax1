@@ -29,8 +29,9 @@
 	{{!-- CSS Icon via font-awesome by_pascalandy --}}
 	<script src="https://use.fontawesome.com/a35a40811e.js"></script>
 	
-	{{!-- CSS Code Syntax (highlight) by_pascalandy --}}
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/tomorrow-night-eighties.min.css">  
+	{{!-- CSS Code Syntax (highlight agate) by_pascalandy 
+	Line number is not supported > http://highlightjs.readthedocs.io/en/latest/line-numbers.html --}}
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/agate.min.css">  
 	<style>  
 	  pre {
 		word-wrap: normal;
@@ -40,8 +41,8 @@
 		hyphens: none;
 		font-size: 0.85em;
 		line-height: 1.4em;
-		padding-top: 1.0em;
-		padding-bottom: 1.0em;
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
 	  }
 		pre code, pre tt {
 		white-space: pre;
@@ -73,16 +74,18 @@
 
     {{!-- jQuery needs to come before `{{ghost_foot}}` so that jQuery can be used in code injection --}}
     <script type="text/javascript" src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+	
     {{!-- Ghost outputs important scripts and data with this tag --}}
     {{ghost_foot}}
+	
     {{!-- Fitvids makes video embeds responsive and awesome --}}
     <script type="text/javascript" src="{{asset "js/jquery.fitvids.min.js"}}"></script>
+	
     {{!-- The main JavaScript file for Casper --}}
     <script type="text/javascript" src="{{asset "js/index.min.js"}}"></script>
     
-
 	{{!-- Code Syntax (highlight) by_pascalandy --}}
-	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>  
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js"></script>
 	<script>hljs.initHighlightingOnLoad();</script>
 	
 </body>
