@@ -4,7 +4,7 @@ FirePress Klimax is an enhanced version of the original Casper theme made by the
 
 We decided to make it available to everyone and open sourced at: https://github.com/firepress-org/FirePress_Klimax
 
-Version: 1.3.6
+The version number [can be found in the package.json](https://github.com/firepress-org/FirePress_Klimax/blob/master/package.json#L5)
 
 ## Features: 
 
