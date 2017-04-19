@@ -2135,6 +2135,7 @@ body.page-template .post-title {
 
     .post-content img {
         padding: 0;
+		border-radius: 0px;
         width: calc(100% + 32px); /* expand with to image + margins */
         min-width: 0;
         max-width: 112%; /* fallback when calc doesn't work */
