@@ -145,6 +145,7 @@
     transition-property: all;
     -webkit-transition-duration: .3s;
     transition-duration: .3s;
+    margin-top: 15px;
     /*
   * Disabled State
   *
