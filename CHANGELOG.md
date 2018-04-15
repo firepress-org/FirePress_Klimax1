@@ -27,6 +27,12 @@ https://trello.com/b/0fCwwzqc/firepress-public-roadmap
 
 ---
 
+## 1.4.08 — — — — — — — — — —
+  
+**⚡️ Minor Feature**
+
+- update URL demo in package.json
+
 ## 1.4.07 — — — — — — — — — —
 
 Better comments in the default section. Will help to to maintain other Ghost themes base on those custom tweaks.
