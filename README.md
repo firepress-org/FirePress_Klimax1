@@ -1,12 +1,12 @@
-## FirePress Klimax
+## FirePress_Klimax1
 
 This theme is under heavy development. 
 
-Our theme **FirePress Klimax** is an enhanced version of the original Casper theme made by the Ghost foundation. The goal is to make a drop-in replacement of the original Casper theme. 
+Our theme **FirePress_Klimax1** is an enhanced version of the original Casper theme made by the Ghost foundation. The goal is to make a drop-in replacement of the original Casper theme. 
 
-We decided to make it available to everyone and open sourced at: https://github.com/firepress-org/FirePress_Klimax
+We decided to make it available to everyone and open sourced at: https://github.com/firepress-org/FirePress_Klimax1
 
-The **version** number [can be found in the package.json](https://github.com/firepress-org/FirePress_Klimax/blob/master/package.json#L5)
+The **version** number [can be found in the package.json](https://github.com/firepress-org/FirePress_Klima1x/blob/master/package.json#L5)
 
 It follows updates (1.3.6 - [double check here](https://github.com/TryGhost/Casper/blob/master/package.json#L5)) has we want to keep best practice and new feature made by the original Casper theme.
 
@@ -17,8 +17,8 @@ It follows updates (1.3.6 - [double check here](https://github.com/TryGhost/Casp
 - Buttons
 - Code Syntax (highlight) 
 - and more to come
-- Check our [commits](https://github.com/firepress-org/FirePress_Klimax/commits/master) for more details
-- There is also the [release section](https://github.com/firepress-org/FirePress_Klimax/releases).
+- Check our [commits](https://github.com/firepress-org/FirePress_Klimax1/commits/master) for more details
+- There is also the [release section](https://github.com/firepress-org/FirePress_Klimax1/releases).
 
 #### Screenshots
 

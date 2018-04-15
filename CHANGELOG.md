@@ -1,4 +1,4 @@
-# CHANGELOG.md - FirePress_Klimax
+# CHANGELOG.md - FirePress_Klimax1
 
 FirePress Public Roadmap:
 https://trello.com/b/0fCwwzqc/firepress-public-roadmap
@@ -26,6 +26,14 @@ https://trello.com/b/0fCwwzqc/firepress-public-roadmap
 **item** — blabla
 
 ---
+
+## 1.4.07 — — — — — — — — — —
+
+Better comments in the default section. Will help to to maintain other Ghost themes base on those custom tweaks.
+
+## 1.4.06 — — — — — — — — — —
+
+**🚀 Major feature** - Rename theme and the projet as FirePress klimax1
 
 ## 1.4.05 — — — — — — — — — —
 
