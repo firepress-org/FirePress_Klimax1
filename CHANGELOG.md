@@ -27,6 +27,12 @@ https://trello.com/b/0fCwwzqc/firepress-public-roadmap
 
 ---
 
+## 1.4.09 — — — — — — — — — —
+  
+**⚡️ Minor Feature**
+
+- Completly re-write of the README
+
 ## 1.4.08 — — — — — — — — — —
   
 **⚡️ Minor Feature**
