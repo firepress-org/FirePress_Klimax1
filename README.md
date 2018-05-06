@@ -1,14 +1,24 @@
 # FirePress_Klimax1
 
 
-## Touch it: Live demo
+## What is this?
+
+It’s a theme (*a template if you prefer*) for [Ghost](https://ghost.org/).
+
+Ghost is a free and open source website & blogging platform designed to simplify the process of publishing. It’s individual bloggers as well as online publications. You can see Ghost as a CMS (content management system) designed to be better alternative to systems like: *WordPress, Drupal, Medium, Tumblr*, etc.
+
+
+## Live demo
+
+**Not available** at the moment. I’m working on a dedicated website where people will be able to see all Ghost Themes we are supporting at FirePress.
 
 - [See this theme](#) on your own device.
 - Even better! [Login into Ghost Admin Panel](#) and see how this theme looks with your own content. 
 
-*(The website is in the pipeline but it’s not public at the moment.)*
 
-**Screenshots** can be found [here](#).
+## Screenshots
+
+- work in progress
 
 
 ## Why fork this Ghost Theme ?
@@ -49,10 +59,12 @@ View **MIT** license information at https://ghost.org/license/ for the software.
 The fork is released under the **GNU** [license](https://github.com/pascalandy/GNU-GENERAL-PUBLIC-LICENSE).
 
 
-## Sources & Fork
+## License & Sources
 
-- This Git repo is available [here](https://github.com/firepress-org/FirePress_Klimax1).
-- This project was forked from this [Git repo](https://github.com/TryGhost/Casper/tree/1.4).
+- For this software, view **MIT** license information at https://ghost.org/license/
+- For the fork, view the **GNU** license information at https://github.com/pascalandy/GNU-GENERAL-PUBLIC-LICENSE
+- This Git repo is available at https://github.com/firepress-org/FirePress_Klimax1
+- This project was forked from https://github.com/TryGhost/Casper/tree/1.4
 
 
 ## Author
