@@ -409,7 +409,7 @@ h6 {
 }
 
 a {
-    color: #00bc40;
+    color: #4A4A4A;
     transition: color 0.3s ease;
 }
 
@@ -1321,6 +1321,7 @@ body.page-template .post-title {
 }
 
 .post-meta a {
+    color: #00bc40;
     text-decoration: none;
 }
 
