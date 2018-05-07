@@ -27,6 +27,13 @@ https://trello.com/b/0fCwwzqc/firepress-public-roadmap
 
 ---
 
+## 1.4.10 — — — — — — — — — —
+
+**⚡️ Minor Feature**
+
+- Links now have a green color (#00bc40)
+- Add a bit more space on top of the meta-data 
+
 ## 1.4.09 — — — — — — — — — —
   
 **⚡️ Minor Feature**
