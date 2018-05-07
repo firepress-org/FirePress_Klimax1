@@ -1,6 +1,6 @@
 {
     "name": "FirePress_Klimax1",
-    "description": "FirePress_Klimax1 is a theme supported by FirePress. All details can be found at https://github.com/firepress-org/FirePress_Klimax1",
+    "description": "FirePress_Klimax1 is a Ghost theme supported by FirePress. It's part of the Ghost-Theme-Curated-Collection. Find it at https://bit.ly/2HB6Fyu",
     "demo": "https://play-with-ghost.com/",
     "version": "1.4.09",
     "engines": {
@@ -25,7 +25,9 @@
     },
     "keywords": [
         "ghost",
-        "theme"
+        "theme",
+        "minimal",
+        "responsive"
     ],
     "repository": {
         "type": "git",
