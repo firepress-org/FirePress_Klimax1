@@ -2,7 +2,7 @@
     "name": "FirePress_Klimax1",
     "description": "FirePress_Klimax1 is a Ghost theme supported by FirePress. It's part of the Ghost-Theme-Curated-Collection. Find it at https://bit.ly/2HB6Fyu",
     "demo": "https://play-with-ghost.com/",
-    "version": "1.4.10",
+    "version": "1.4.11",
     "engines": {
         "ghost": ">=1.0.0"
     },

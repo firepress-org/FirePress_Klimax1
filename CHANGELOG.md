@@ -27,6 +27,12 @@ https://trello.com/b/0fCwwzqc/firepress-public-roadmap
 
 ---
 
+## 1.4.11 — — — — — — — — — —
+
+**⚡️ Minor Feature**
+
+- fix URL as it puts everything with a green URL including Title. This is ugly so let’s rollback. 
+
 ## 1.4.10 — — — — — — — — — —
 
 **⚡️ Minor Feature**
