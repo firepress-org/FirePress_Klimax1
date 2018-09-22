@@ -26,8 +26,7 @@
     "keywords": [
         "ghost",
         "theme",
-        "minimal",
-        "responsive"
+			  "ghost-theme",
     ],
     "repository": {
         "type": "git",
