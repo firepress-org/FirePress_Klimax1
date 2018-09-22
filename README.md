@@ -3,43 +3,30 @@
 
 ## What is this?
 
-It’s a theme (*a template if you prefer*) for [Ghost](https://ghost.org/).
-
-Ghost is a free and open source website & blogging platform designed to simplify the process of publishing. It’s individual bloggers as well as online publications. You can see Ghost as a CMS (content management system) designed to be better alternative to systems like: *WordPress, Drupal, Medium, Tumblr*, etc.
-
-
-## Live demo
-
-**Not available** at the moment. I’m working on a dedicated website where people will be able to see all Ghost Themes we are supporting at FirePress.
-
-- [See this theme](#) on your own device.
-- Even better! [Login into Ghost Admin Panel](#) and see how this theme looks with your own content. 
+- **FirePress_Klimax1** — It’s a free and responsive Ghost theme (*a template if you prefer*) made for Ghost.
+- **Compatibility** — This theme works on Ghost `>= 2.0.0`.
+- **What is Ghost?** — Ghost is an open source software that lets you create your website with a blog. See the [FAQ section](https://play-with-ghost.com/ghost-themes/faq/#what-is-ghost) for more details.
 
 
-## Screenshots
+## Live Demo
 
-- work in progress
+**play-with-ghost.com** is a playground to learn about Ghost. You can **see** Ghost themes and **login** into the admin panel by using the available credentials. In short, you can try Ghost on the spot without having to sign-up!
+
+- **Live Demo** ==> https://play-with-ghost.com/live-demo-firepress-klimax1-for-barbershops/
+- **Log in credentials** ==> https://play-with-ghost.com/ghost-themes/firepress-klimax1-for-barbershops/
+- **Admin Panel** ==> https://play-with-ghost.com/live-demo-firepress-klimax1-for-barbershops/ghost/
 
 
 ## Why fork this Ghost Theme ?
 
-**Enhancements** — This theme is an enhanced version of the original theme **Casper** made by the [Ghost foundation](https://ghost.org/). When I say « original » I mean prior the moment, Casper was completely revamped with the release of Ghost 1.0. 
-
-These are the essential enhancements I can’t live without:
-
-- **Buttons** (unicorn UI)
-- **Icons** (Font Awesome 5)
-- **Code Syntax** (highlight.js) 
-- **Grid** (great to make pricing table)
-
-**Drop-in replacement** — You can use it as a drop-in replacement of the original Casper theme.
-
-**Code Injection** — Take a look those snippets in this [Git repo](https://github.com/firepress-org/Code-Injection-Ghost). It’s an easy way to customize your theme.
-
-**Curated** — This theme is one the few themes that pass our big test. See the curated collection [in this Git repo](https://github.com/firepress-org/Ghost-Theme-Curated-Collection/tree/master/01_go).
-
-**Compatibility** — This theme will work on [Ghost](https://ghost.org/) >= **1.0**.
-
+- **Enhancements** — This theme has been enhanced to feature some elements that are not present in the original theme. IMHO, these are essential enhancements that are hard to live without:
+	- **Buttons** (unicorn UI)
+	- **Icons** (Font Awesome 5)
+	- **Code Syntax** (highlight.js) 
+	- **Grid** (great to make pricing table)
+- **Drop-in replacement** — No special tweaks to do. It will work out of the box.
+- **Code Injection** — Take a look those snippets in this [Git repo](https://github.com/firepress-org/Code-Injection-Ghost). It’s an easy way to customize your theme.
+- **Curated** — This theme was carefully selected out of hundreds of Ghost Themes. See more of them in our [Ghost-Theme-Curated-Collection ](https://github.com/firepress-org/Ghost-Theme-Curated-Collection/tree/master/01_go).
 
 ## Contributing
 
@@ -52,23 +39,49 @@ Thanks to the power of communities, this is where `1 + 1 = 3`.
 5. Submit a pull request
 
 
-## Copyright & License
+## Sources & Fork
 
-View **MIT** license information at https://ghost.org/license/ for the software.
-
-The fork is released under the **GNU** [license](https://github.com/pascalandy/GNU-GENERAL-PUBLIC-LICENSE).
-
-
-## License & Sources
-
-- For this software, view **MIT** license information at https://ghost.org/license/
-- For the fork, view the **GNU** license information at https://github.com/pascalandy/GNU-GENERAL-PUBLIC-LICENSE
 - This Git repo is available at https://github.com/firepress-org/FirePress_Klimax1
 - This project was forked from https://github.com/TryGhost/Casper/tree/1.4
 
 
-## Author
+## License
 
-In the world of OSS (open source software) most people refer themselves as maintainers. The thing is… I hate this expression. It feels heavy and not fun. I much prefer author.
+- This software is under the **MIT** license. Information at https://ghost.org/license/
+- This fork is under the **GNU** license. Information at https://github.com/pascalandy/GNU-GENERAL-PUBLIC-LICENSE
 
-Shared by [Pascal Andy](https://pascalandy.com/blog/now/). Find me on [Twitter](https://twitter.com/askpascalandy).
+
+## FirePress Hosting
+
+At FirePress we do one thing and we do it with our whole heart: we host **fully managed Ghost’s websites**. The idea behind FirePress is to empower freelancers and small organizations to be able to build an outstanding mobile-first website. Start your [free trial here](https://play-with-ghost.com/ghost-themes/free-10-day-trial/).
+
+We offer **workshops** where participants ends up with a website/blog they can easily operate themselves. Details are coming soon. It is available in those cities:
+
+- Montréal - Canada
+- Québec City - Canada
+- Toronto - Canada
+- New-York - USA
+
+Because we believe your website should speak up in your name, we consider our mission completed once your site has become [your impresario](https://play-with-ghost.com/ghost-themes/why-launching-your-next-website-with-firepress/).
+
+
+## Keep in touch
+
+- Pascal Andy’s [« now page »](https://pascalandy.com/blog/now/)
+- Follow me on [Twitter](https://twitter.com/askpascalandy)
+- Find more Ghost Themes on [play-with-ghost.com](https://play-with-ghost.com/)
+
+
+## Screenshots
+
+<br>
+
+![firepress_klimax1_11](https://user-images.githubusercontent.com/6694151/45920722-ae085480-be76-11e8-9127-8ef026f9f408.jpg)
+
+<br>
+
+![firepress_klimax1_12](https://user-images.githubusercontent.com/6694151/45920723-ae085480-be76-11e8-9381-b13ad275741d.jpg)
+
+<br>
+
+![firepress_klimax1_13](https://user-images.githubusercontent.com/6694151/45920724-ae085480-be76-11e8-828f-bd5b42dfc01d.jpg)
