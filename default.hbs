@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    {{!-- FirePress_Klimax1 --}}
+    {{!-- FirePress_Klimax1 / Find more on https://github.com/firepress-org --}}
 
     {{!-- Document Settings --}}
     <meta charset="utf-8" />
@@ -15,29 +15,31 @@
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    {{!-- Brand icon --}}
-    <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
+    {{!-- Brand icon (bypassed)
+    <link rel="shortcut icon" href="{{asset "favicon.ico"}}"> --}}
 
     {{!-- Styles'n'Scripts --}}
     <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
 
-    <!-- SEE BELOW /// CUSTOM ELEMENTS ///
-         ADDED BY: https://pascalandy.com/blog/now/ -->
+    <!-- =====================================================================
+    SEE below / CUSTOM ELEMENTS
+    Added by: pascalandy.com/blog/now
+    ========================================================================== -->
 
     <!-- CSS Buttons (unicorn-ui) -->
-    <link rel="stylesheet" type="text/css" href="{{asset "css_firepress/css_unicorn/buttons.min.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "css_firepress/buttons.min.css"}}" />
     
     <!-- CSS Grid and Tables -->
-    <link rel="stylesheet" type="text/css" href="{{asset "css_firepress/css_simplegrid/simplegrid.min.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "css_firepress/simplegrid.min.css"}}" />
     
     <!-- CSS Icon via fontawesome 5 -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/v4-shims.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/v4-shims.css">
+	  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
-    <!-- CSS Code Syntax (highlight agate)
-    Line number is not supported > http://highlightjs.readthedocs.io/en/latest/line-numbers.html -->
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/agate.min.css">  
+    <!-- CSS Code Syntax (highlight agate) -->
+    <!-- Line number is not supported > http://highlightjs.readthedocs.io/en/latest/line-numbers.html -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/agate.min.css">  
     <style>  
       pre {
         word-wrap: normal;
@@ -55,7 +57,10 @@
       }
     </style>
 
-    <!-- SEE ABOVE /// CUSTOM ELEMENTS /// -->
+    <!-- =====================================================================
+    SEE Above / CUSTOM ELEMENTS
+    ========================================================================== -->
+
 
     {{!-- Ghost outputs important style and meta data with this tag --}}
     {{ghost_head}}
@@ -70,13 +75,11 @@
         {{!-- All the main content gets inserted here, index.hbs, post.hbs, etc --}}
         {{{body}}}
 
-        {{!-- The tiny footer at the very bottom --}}
-            {{!--
-            <footer class="site-footer clearfix">
-                <section class="copyright"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}</section>
-                <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
-            </footer>
-            --}}
+        {{!-- The tiny footer at the very bottom (bypassed)
+          <footer class="site-footer clearfix">
+              <section class="copyright"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}</section>
+              <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+          </footer> --}}
 
     </div>
 
@@ -92,13 +95,18 @@
     {{!-- The main JavaScript file for Casper --}}
     <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
     
-    <!-- SEE BELOW /// CUSTOM ELEMENTS /// -->
+
+    <!-- =====================================================================
+    SEE Below / CUSTOM ELEMENTS
+    ========================================================================== -->
 
     <!--  Code Syntax (highlight) -->
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    
-    <!-- SEE ABOVE /// CUSTOM ELEMENTS /// -->
+
+    <!-- =====================================================================
+    SEE Above / CUSTOM ELEMENTS
+    ========================================================================== -->
 
 </body>
 </html>

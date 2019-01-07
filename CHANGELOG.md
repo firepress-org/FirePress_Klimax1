@@ -3,29 +3,14 @@
 FirePress Public Roadmap:
 https://trello.com/b/0fCwwzqc/firepress-public-roadmap
 
+---
 
-## 0.00 template — — — — — — — — — —
-
-**🎨 User Story**
-- As an OpsHero, I want to 0o0o
-
-**🚀 Major feature**
-
-**item** — blabla
+## 1.5.3 — — — — — — — — — —
 
 **⚡️ Minor Feature**
 
-**item** — blabla
-
-**🐛 Bugs**
-
-**item** — blabla
-
-**⚠️ Warning**
-
-**item** — blabla
-
----
+- update custom elements
+- restructure the custom CSS
 
 ## 1.4.11 — — — — — — — — — —
 
@@ -87,5 +72,27 @@ Better comments in the default section. Will help to to maintain other Ghost the
 ## 1.3.612 — — — — — — — — — —
 
 **⚡️ Minor Feature** — Adding 10px at the bottom of the header-banner | mobile view 
+
+
+## 0.00 template — — — — — — — — — —
+
+**🎨 User Story**
+- As an OpsHero, I want to 0o0o
+
+**🚀 Major feature**
+
+**item** — blabla
+
+**⚡️ Minor Feature**
+
+**item** — blabla
+
+**🐛 Bugs**
+
+**item** — blabla
+
+**⚠️ Warning**
+
+**item** — blabla
 
 
