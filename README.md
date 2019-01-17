@@ -22,6 +22,8 @@
 
 ## What is this?
 
+If you are looking for a maintained version of the original **Casper theme**, this is it. I started to use it when Ghost was at version v0.4. The Ghost foundation [stop to maintain](https://github.com/TryGhost/Casper/tree/1.4) it at v1.4.
+
 This theme is a free and responsive theme (*template if you prefer*) made for Ghost. This theme is compatible with Ghost `>= 2.0.0`. You can check this information in the file `package.json`.
 
 **What is Ghost?** — Ghost is an open source software that lets you create a website and manage content like a blog. [See our FAQ section](https://firepress.org/en/faq/#what-is-ghost) for more details.
