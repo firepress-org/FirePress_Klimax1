@@ -1,112 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-    {{!-- FirePress_Klimax1 / Find more on https://github.com/firepress-org --}}
+  {{!-- FirePress_Klimax1 / Find more on https://github.com/firepress-org --}}
 
-    {{!-- Document Settings --}}
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  {{!-- Document Settings --}}
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    {{!-- Page Meta --}}
-    <title>{{meta_title}}</title>
-    <meta name="description" content="{{meta_description}}" />
-    
-    {{!-- Mobile Meta --}}
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  {{!-- Page Meta --}}
+  <title>{{meta_title}}</title>
+  <meta name="description" content="{{meta_description}}" />
+  
+  {{!-- Mobile Meta --}}
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    {{!-- Brand icon (bypassed)
-    <link rel="shortcut icon" href="{{asset "favicon.ico"}}"> --}}
+  {{!-- Brand icon (bypassed)
+  <link rel="shortcut icon" href="{{asset "favicon.ico"}}"> --}}
 
-    {{!-- Styles'n'Scripts --}}
-    <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+  {{!-- Styles'n'Scripts --}}
+  <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
 
-    <!-- =====================================================================
-    SEE below / CUSTOM ELEMENTS
-    Added by: pascalandy.com/blog/now
-    ========================================================================== -->
+  {{!-- Customisation by https://github.com/firepress-org --}}
+  {{>custom_header}}
 
-    <!-- CSS Buttons (unicorn-ui) -->
-    <link rel="stylesheet" type="text/css" href="{{asset "css_firepress/buttons.min.css"}}" />
-    
-    <!-- CSS Grid and Tables -->
-    <link rel="stylesheet" type="text/css" href="{{asset "css_firepress/simplegrid.min.css"}}" />
-    
-    <!-- CSS Icon via fontawesome 5 -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/v4-shims.css">
-	  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-
-    <!-- CSS Code Syntax (highlight agate) -->
-    <!-- Line number is not supported > http://highlightjs.readthedocs.io/en/latest/line-numbers.html -->
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/agate.min.css">  
-    <style>  
-      pre {
-        word-wrap: normal;
-        -moz-hyphens: none;
-        -ms-hyphens: none;
-        -webkit-hyphens: none;
-        hyphens: none;
-        font-size: 0.85em;
-        line-height: 1.4em;
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
-      }
-        pre code, pre tt {
-        white-space: pre;
-      }
-    </style>
-
-    <!-- =====================================================================
-    SEE Above / CUSTOM ELEMENTS
-    ========================================================================== -->
-
-
-    {{!-- Ghost outputs important style and meta data with this tag --}}
-    {{ghost_head}}
+  {{!-- Ghost outputs important style and meta data with this tag --}}
+  {{ghost_head}}
 </head>
 <body class="{{body_class}} nav-closed">
 
-    {{!-- The blog navigation links --}}
-    {{navigation}}
+  {{!-- The blog navigation links --}}
+  {{navigation}}
 
-    <div class="site-wrapper">
+  <div class="site-wrapper">
 
-        {{!-- All the main content gets inserted here, index.hbs, post.hbs, etc --}}
-        {{{body}}}
+    {{!-- All the main content gets inserted here, index.hbs, post.hbs, etc --}}
+    {{{body}}}
 
-        {{!-- The tiny footer at the very bottom (bypassed)
-          <footer class="site-footer clearfix">
-              <section class="copyright"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}</section>
-              <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
-          </footer> --}}
-
+    {{!-- The footer at the very bottom of the screen --}}
+    {{!-- Customisation by https://github.com/firepress-org --}}
+    <div>
+      <footer class="site-foot">
+      <a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}.&nbsp;&nbsp;Driven by firepress.org and published with ghost.org
+      </footer>
     </div>
+  </div>
 
-    {{!-- jQuery needs to come before `{{ghost_foot}}` so that jQuery can be used in code injection --}}
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-    
-    {{!-- Ghost outputs important scripts and data with this tag --}}
-    {{ghost_foot}}
-    
-    {{!-- Fitvids makes video embeds responsive and awesome --}}
-    <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
-    
-    {{!-- The main JavaScript file for Casper --}}
-    <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
-    
-
-    <!-- =====================================================================
-    SEE Below / CUSTOM ELEMENTS
-    ========================================================================== -->
-
-    <!--  Code Syntax (highlight) -->
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-
-    <!-- =====================================================================
-    SEE Above / CUSTOM ELEMENTS
-    ========================================================================== -->
+  {{!-- jQuery needs to come before `{{ghost_foot}}` so that jQuery can be used in code injection --}}
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+  
+  {{!-- Ghost outputs important scripts and data with this tag --}}
+  {{ghost_foot}}
+  
+  {{!-- Fitvids makes video embeds responsive and awesome --}}
+  <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
+  
+  {{!-- The main JavaScript file for Casper --}}
+  <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
+  
+  {{!-- Customisation by https://github.com/firepress-org --}}
+  {{>custom_footer}}
 
 </body>
 </html>
