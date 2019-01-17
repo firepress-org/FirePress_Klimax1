@@ -4,8 +4,8 @@
 ## What is this?
 
 - **FirePress_Klimax1** — It’s a free and responsive Ghost theme (*a template if you prefer*) made for Ghost.
-- **Compatibility** — This theme works on Ghost `>= 2.0.0`.
-- **What is Ghost?** — Ghost is an open source software that lets you create your website with a blog. See the [FAQ section](https://play-with-ghost.com/ghost-themes/faq/#what-is-ghost) for more details.
+- **Compatibility** — This theme works on Ghost `>= 2.0.0`. (Verify in the file `package.json`)
+- **What is Ghost?** — Ghost is an open source software that lets you create your website with a blog. [See our FAQ section](https://firepress.org/en/faq/#what-is-ghost) for more details.
 
 
 ## Live Demo
