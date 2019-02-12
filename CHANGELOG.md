@@ -5,6 +5,10 @@ https://trello.com/b/0fCwwzqc/firepress-public-roadmap
 
 ---
 
+## 1.5.5
+
+- f064adcc minor update readme
+
 ## 1.5.4
 
 - 57f82576 major README update
