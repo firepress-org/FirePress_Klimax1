@@ -8,6 +8,8 @@ https://trello.com/b/0fCwwzqc/firepress-public-roadmap
 ## 1.5.5
 
 - f064adcc minor update readme
+- 5392eb1a bump to font awesome v5.7.1
+- c8c91556 fix engine
 
 ## 1.5.4
 
