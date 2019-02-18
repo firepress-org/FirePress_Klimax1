@@ -18,16 +18,32 @@ https://gist.github.com/pascalandy/af709db02d3fe132a3e6f1c11b934fe4
 ### 🛑 Removed
 ### 🔑 Security
 
-FirePress Public Roadmap:
-https://trello.com/b/0fCwwzqc/firepress-public-roadmap
-
 ---
+
+
+## 1.5.6
+### ⚡️ Updates
+- 72298e53 now using standard template
+- 530ea2ca README update
+- 7ae5a20d Major update for highlight-js: Added agate.css to better control how it renders
+- 16b7891c Update to Font Awesome 5.7.2
+- a8e77b94 README update
+- bdb7aa77 Major update in the way it looks AND pdated highlight-js 9.14.2
+- 69665454 Simplify markdown example
+
+### 🐛 Fix bug
+- 17d57205 Fix button CSS styles. Makes them more universal
+
+### 🛑 Removed
+- d07aad17 remove fire_footer.css
+
 
 ## 1.5.5
 
 - f064adcc minor update readme
 - 5392eb1a bump to font awesome v5.7.1
 - c8c91556 fix engine
+
 
 ## 1.5.4
 
@@ -37,6 +53,7 @@ https://trello.com/b/0fCwwzqc/firepress-public-roadmap
 - 48683a47 major / introducing 3 button styles
 - ca8ae9a8 minor
 
+
 ## 1.5.3
 
 **⚡️ Minor Feature**
@@ -44,17 +61,20 @@ https://trello.com/b/0fCwwzqc/firepress-public-roadmap
 - update custom elements
 - restructure the custom CSS
 
+
 ## 1.4.11
 
 **⚡️ Minor Feature**
 
 - fix URL as it puts everything with a green URL including Title. This is ugly so let’s rollback. 
 
+
 ## 1.4.10
 
 **⚡️ Minor Feature**
 
 - main URL is black and post-meta is green
+
 
 ## 1.4.09
   

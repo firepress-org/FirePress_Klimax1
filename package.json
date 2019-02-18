@@ -2,7 +2,7 @@
   "name": "FirePress_Klimax1",
   "description": "This Ghost theme is supported by FirePress. Find more free themes at https://github.com/topics/firepress-ghost-theme",
   "demo": "https://play-with-ghost.com/ghost-themes/firepress-klimax1-for-barbershops/",
-  "version": "1.5.5",
+  "version": "1.5.6",
   "engines": {
     "ghost": ">=2.0.0"
   },
