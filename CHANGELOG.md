@@ -8,10 +8,7 @@ https://trello.com/b/0fCwwzqc/firepress-public-roadmap
 Based on this template:
 https://gist.github.com/pascalandy/af709db02d3fe132a3e6f1c11b934fe4
 
----
-
-## [0.0.0] - 1910-12-30
-
+## 0.0.0 status template
 ### ⚡️ Updates
 ### 🚀 Added (new feat.)
 ### 🐛 Fix bug
@@ -19,6 +16,13 @@ https://gist.github.com/pascalandy/af709db02d3fe132a3e6f1c11b934fe4
 ### 🔑 Security
 
 ---
+
+# Releases
+
+
+## 1.5.7
+### 🐛 Fix bug
+- 52c434a4 Fix footer credentials
 
 
 ## 1.5.6
