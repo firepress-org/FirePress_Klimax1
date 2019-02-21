@@ -2052,10 +2052,9 @@ body.page-template .post-title {
 
 .site-footer {
     position: relative;
-    margin: 8rem 0 0 0;
-    padding: 1rem 15px;
+    padding: 1.6em;
     font-family: "Open Sans", sans-serif;
-    font-size: 1rem;
+    font-size: 1.3rem;
     line-height: 1.75em;
     color: #BBC7CC;
 }
@@ -2079,8 +2078,8 @@ body.page-template .post-title {
 
 .copyright {
     display: block;
-    width: 45%;
-    float: left;
+    width: 80%;
+    float: center;
 }
 
 

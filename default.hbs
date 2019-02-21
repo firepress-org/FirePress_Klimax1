@@ -19,7 +19,7 @@
   <link rel="shortcut icon" href="{{asset "favicon.ico"}}"> --}}
 
   {{!-- Styles'n'Scripts --}}
-  <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
+  <link rel="stylesheet" type="text/css" href="{{asset "css/screen.min.css"}}" />
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
 
   {{!-- Customisation by https://github.com/firepress-org --}}
@@ -40,11 +40,13 @@
 
     {{!-- The footer at the very bottom of the screen --}}
     {{!-- Customisation by https://github.com/firepress-org --}}
-    <div>
-      <footer class="site-foot">
-      <a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}.&nbsp;&nbsp;Driven by firepress.org and published with ghost.org
+
+    <div align="center">
+      <footer class="site-footer clearfix">
+          <section class="copyright"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}.&nbsp;&nbsp;Driven by firepress.org and published with ghost.org</section>
       </footer>
     </div>
+
   </div>
 
   {{!-- jQuery needs to come before `{{ghost_foot}}` so that jQuery can be used in code injection --}}
